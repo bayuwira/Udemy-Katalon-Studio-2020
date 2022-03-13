@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional Test Suites,Safari 15,,,2022-03-13 09:58:22,2022-03-13 10:00:03,1m - 40.730s,FAILED
+,,,,,,,
+Test Cases/Add Single Product to Cart,Safari 15,,,2022-03-13 09:59:22,2022-03-13 09:59:35,13.133s,FAILED
+"openBrowser("""")",Safari 15,,,2022-03-13 09:59:22,2022-03-13 09:59:23,0.945s,PASSED
+"navigateToUrl(""http://automationpractice.com/"")",Safari 15,,,2022-03-13 09:59:23,2022-03-13 09:59:32,8.403s,PASSED
+"click(findTestObject(""Home Page/Product Segment/a_Product Blouses""))",Safari 15,,,2022-03-13 09:59:32,2022-03-13 09:59:35,3.136s,PASSED
+"selectOptionByLabel(findTestObject(""Product Detail Page/select_Product Size""), ""L"", false)",Safari 15,,,2022-03-13 09:59:35,2022-03-13 09:59:35,0.302s,PASSED
+"click(findTestObject(""Product Detail Page/button_Add to cart""))",Safari 15,,,2022-03-13 09:59:35,2022-03-13 09:59:35,0.148s,PASSED
+"click(findTestObject(""Product Detail Page/button_Proceed to checkout""))",Safari 15,,,2022-03-13 09:59:35,2022-03-13 09:59:35,0.179s,FAILED
+,,,,,,,
+Test Cases/Login Manual Mode,Safari 15,,,2022-03-13 09:59:35,2022-03-13 09:59:48,12.333s,PASSED
+"openBrowser("""")",Safari 15,,,2022-03-13 09:59:36,2022-03-13 09:59:36,0.663s,PASSED
+navigateToUrl(TestAutomationUrl),Safari 15,,,2022-03-13 09:59:36,2022-03-13 09:59:44,7.941s,PASSED
+"click(findTestObject(""Home Page/button_Sign in""))",Safari 15,,,2022-03-13 09:59:44,2022-03-13 09:59:46,2.105s,PASSED
+"setText(findTestObject(""Login Page/Login Section/input_Email address_email""), EmailAddress)",Safari 15,,,2022-03-13 09:59:46,2022-03-13 09:59:47,0.510s,PASSED
+"setText(findTestObject(""Login Page/Login Section/input_Password_passwd""), Password)",Safari 15,,,2022-03-13 09:59:47,2022-03-13 09:59:47,0.344s,PASSED
+"click(findTestObject(""Login Page/Login Section/button_Sign in""))",Safari 15,,,2022-03-13 09:59:47,2022-03-13 09:59:47,0.140s,PASSED
+closeBrowser(),Safari 15,,,2022-03-13 09:59:47,2022-03-13 09:59:48,0.417s,PASSED
+,,,,,,,
+Test Cases/Test Click Contact Us,Safari 15,,,2022-03-13 09:59:48,2022-03-13 10:00:03,15.383s,PASSED
+"openBrowser("""")",Safari 15,,,2022-03-13 09:59:48,2022-03-13 09:59:49,0.904s,PASSED
+"navigateToUrl(""http://automationpractice.com/"")",Safari 15,,,2022-03-13 09:59:49,2022-03-13 09:59:58,9.050s,PASSED
+"click(findTestObject(""Manual_Object_Locator/button_contanct_us""))",Safari 15,,,2022-03-13 09:59:58,2022-03-13 10:00:00,2.191s,PASSED
+delay(3),Safari 15,,,2022-03-13 10:00:00,2022-03-13 10:00:03,3.025s,PASSED
+closeBrowser(),Safari 15,,,2022-03-13 10:00:03,2022-03-13 10:00:03,0.083s,PASSED

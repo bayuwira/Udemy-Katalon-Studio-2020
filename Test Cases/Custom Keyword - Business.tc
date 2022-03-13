@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Custom Keyword - Business</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>660b8b7c-b667-4846-ad8a-2de287325e0b</testCaseGuid>
+   <variable>
+      <defaultValue>'bayuwira1718@gmail.com'</defaultValue>
+      <description></description>
+      <id>eb599bf8-172a-4b98-843e-772065305068</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'vR2@CnMf!n99Nd!'</defaultValue>
+      <description></description>
+      <id>b1747022-4d3e-4c46-a7fc-a59c7fc8ab9d</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

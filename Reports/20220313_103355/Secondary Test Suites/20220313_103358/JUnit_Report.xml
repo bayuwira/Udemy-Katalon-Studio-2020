@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Secondary Test Suites" time="22.619" tests="2" failures="0" errors="0">
+   <testsuite name="Secondary Test Suites" tests="2" failures="0" errors="0" time="22.619" skipped="0" timestamp="2022-03-13 10:34:20" hostname="bayuwirab - localhost" id="Test Suites/Secondary Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_103355/Secondary Test Suites/20220313_103358"/>
+         <property name="logFiles" value="/Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_103355/Secondary Test Suites/20220313_103358/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bayuwirab - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Firefox 97.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="0497984b-71e0-456a-a4c4-7e43eafccca2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Tests iframe, alerts, and browsers/Multiple windows (Login flow)" time="11.913" classname="Test Cases/Tests iframe, alerts, and browsers/Multiple windows (Login flow)" status="PASSED">
+         <system-out><![CDATA[2022-03-13 10:34:20 - [TEST_CASE][PASSED] - Test Cases/Tests iframe, alerts, and browsers/Multiple windows (Login flow): Test Cases/Tests iframe, alerts, and browsers/Multiple windows (Login flow)
+
+2022-03-13 10:34:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 10:34:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-03-13 10:34:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 10:34:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 10:34:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-13 10:34:26 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-13 10:34:26 - [TEST_STEP][PASSED] - navigateToUrl("file:///Users/bayuwirab/Documents/CODE/learn-SDET/course-api-framework-python/sample%20sites/learnks1-home.html"): Navigate to 'file:/Users/bayuwirab/Documents/CODE/learn-SDET/course-api-framework-python/sample%20sites/learnks1-home.html' successfully
+
+2022-03-13 10:34:26 - [MESSAGE][PASSED] - Navigate to 'file:/Users/bayuwirab/Documents/CODE/learn-SDET/course-api-framework-python/sample%20sites/learnks1-home.html' successfully
+
+2022-03-13 10:34:26 - [TEST_STEP][PASSED] - click(findTestObject("Sample Sites handling alerts and iframe/Home Page/a_LOGIN")): Object: 'Object Repository/Sample Sites handling alerts and iframe/Home Page/a_LOGIN' is clicked on
+
+2022-03-13 10:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample Sites handling alerts and iframe/Home Page/a_LOGIN' is clicked on
+
+2022-03-13 10:34:27 - [TEST_STEP][PASSED] - switchToWindowTitle("LearnKS Log in"): Switched to window with title: 'LearnKS Log in'
+
+2022-03-13 10:34:27 - [MESSAGE][PASSED] - Switched to window with title: 'LearnKS Log in'
+
+2022-03-13 10:34:27 - [TEST_STEP][PASSED] - setText(findTestObject("Sample Sites handling alerts and iframe/Login Page/input_Log in_userName"), "adminTest"): Text 'adminTest' is set on object 'Object Repository/Sample Sites handling alerts and iframe/Login Page/input_Log in_userName'
+
+2022-03-13 10:34:28 - [MESSAGE][PASSED] - Text 'adminTest' is set on object 'Object Repository/Sample Sites handling alerts and iframe/Login Page/input_Log in_userName'
+
+2022-03-13 10:34:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Sample Sites handling alerts and iframe/Login Page/input_Log in_password"), "MDqz8hE2zEXL0RLtB/SuEw=="): Text ****** has been set on object 'Object Repository/Sample Sites handling alerts and iframe/Login Page/input_Log in_password'
+
+2022-03-13 10:34:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sample Sites handling alerts and iframe/Login Page/input_Log in_password'
+
+2022-03-13 10:34:28 - [TEST_STEP][PASSED] - click(findTestObject("Sample Sites handling alerts and iframe/Login Page/button_Login")): Object: 'Object Repository/Sample Sites handling alerts and iframe/Login Page/button_Login' is clicked on
+
+2022-03-13 10:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample Sites handling alerts and iframe/Login Page/button_Login' is clicked on
+
+2022-03-13 10:34:28 - [TEST_STEP][PASSED] - switchToWindowTitle("Page Submitted"): Switched to window with title: 'Page Submitted'
+
+2022-03-13 10:34:28 - [MESSAGE][PASSED] - Switched to window with title: 'Page Submitted'
+
+2022-03-13 10:34:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Sample Sites handling alerts and iframe/Page Submitted Page/h1_Page Submitted"), "Page Submitted"): Actual text and expected text of test object 'Object Repository/Sample Sites handling alerts and iframe/Page Submitted Page/h1_Page Submitted' are matched.
+
+2022-03-13 10:34:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sample Sites handling alerts and iframe/Page Submitted Page/h1_Page Submitted' are matched.
+
+2022-03-13 10:34:29 - [TEST_STEP][PASSED] - closeWindowIndex("1"): Window with index 1 is closed
+
+2022-03-13 10:34:29 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2022-03-13 10:34:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-13 10:34:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-13 10:34:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 10:34:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests iframe, alerts, and browsers/Handling Alerts" time="10.394" classname="Test Cases/Tests iframe, alerts, and browsers/Handling Alerts" status="PASSED">
+         <system-out><![CDATA[2022-03-13 10:34:32 - [TEST_CASE][PASSED] - Test Cases/Tests iframe, alerts, and browsers/Handling Alerts: Test Cases/Tests iframe, alerts, and browsers/Handling Alerts
+
+2022-03-13 10:34:33 - [TEST_STEP][PASSED] - openBrowser("file:///Users/bayuwirab/Documents/CODE/learn-SDET/course-api-framework-python/sample%20sites/learnks1-home.html"): Browser is opened with url: 'file:///Users/bayuwirab/Documents/CODE/learn-SDET/course-api-framework-python/sample%20sites/learnks1-home.html'
+
+2022-03-13 10:34:33 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-03-13 10:34:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 10:34:36 - [MESSAGE][PASSED] - Browser is opened with url: 'file:///Users/bayuwirab/Documents/CODE/learn-SDET/course-api-framework-python/sample%20sites/learnks1-home.html'
+
+2022-03-13 10:34:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-13 10:34:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-13 10:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Sample Sites handling alerts and iframe/Home Page/button_Open an ALERT box")): Object: 'Object Repository/Sample Sites handling alerts and iframe/Home Page/button_Open an ALERT box' is clicked on
+
+2022-03-13 10:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample Sites handling alerts and iframe/Home Page/button_Open an ALERT box' is clicked on
+
+2022-03-13 10:34:37 - [TEST_STEP][PASSED] - if (waitForAlert(5)): null
+
+2022-03-13 10:34:37 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+2022-03-13 10:34:37 - [TEST_STEP][PASSED] - println(getAlertText()): Get alert text successfully: 'I am an ALERT box!'
+
+2022-03-13 10:34:37 - [MESSAGE][PASSED] - Get alert text successfully: 'I am an ALERT box!'
+
+2022-03-13 10:34:38 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2022-03-13 10:34:38 - [MESSAGE][PASSED] - Alert accepted
+
+2022-03-13 10:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sample Sites handling alerts and iframe/Home Page/button_Open a CONFIRM box")): Object: 'Object Repository/Sample Sites handling alerts and iframe/Home Page/button_Open a CONFIRM box' is clicked on
+
+2022-03-13 10:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample Sites handling alerts and iframe/Home Page/button_Open a CONFIRM box' is clicked on
+
+2022-03-13 10:34:38 - [TEST_STEP][PASSED] - if (waitForAlert(3)): null
+
+2022-03-13 10:34:38 - [MESSAGE][PASSED] - Alert is present after 3 second(s).
+
+2022-03-13 10:34:38 - [TEST_STEP][PASSED] - println(getAlertText()): Get alert text successfully: 'I am a CONFIRM box
+Press a button!'
+
+2022-03-13 10:34:38 - [MESSAGE][PASSED] - Get alert text successfully: 'I am a CONFIRM box
+Press a button!'
+
+2022-03-13 10:34:38 - [TEST_STEP][PASSED] - dismissAlert(): Alert dismissed
+
+2022-03-13 10:34:38 - [MESSAGE][PASSED] - Alert dismissed
+
+2022-03-13 10:34:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Sample Sites handling alerts and iframe/Home Page/span_Confirmation Alert"), "You pressed Cancel!"): Actual text and expected text of test object 'Object Repository/Sample Sites handling alerts and iframe/Home Page/span_Confirmation Alert' are matched.
+
+2022-03-13 10:34:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sample Sites handling alerts and iframe/Home Page/span_Confirmation Alert' are matched.
+
+2022-03-13 10:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Sample Sites handling alerts and iframe/Home Page/button_Open a PROMPT box")): Object: 'Object Repository/Sample Sites handling alerts and iframe/Home Page/button_Open a PROMPT box' is clicked on
+
+2022-03-13 10:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Sample Sites handling alerts and iframe/Home Page/button_Open a PROMPT box' is clicked on
+
+2022-03-13 10:34:39 - [TEST_STEP][PASSED] - setAlertText("Test Prompt"): Set alert text 'Test Prompt' successfully
+
+2022-03-13 10:34:39 - [MESSAGE][PASSED] - Set alert text 'Test Prompt' successfully
+
+2022-03-13 10:34:39 - [TEST_STEP][PASSED] - if (waitForAlert(3)): null
+
+2022-03-13 10:34:39 - [MESSAGE][PASSED] - Alert is present after 3 second(s).
+
+2022-03-13 10:34:39 - [TEST_STEP][PASSED] - println(getAlertText()): Get alert text successfully: 'Please enter your name:'
+
+2022-03-13 10:34:39 - [MESSAGE][PASSED] - Get alert text successfully: 'Please enter your name:'
+
+2022-03-13 10:34:39 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2022-03-13 10:34:39 - [MESSAGE][PASSED] - Alert accepted
+
+2022-03-13 10:34:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Sample Sites handling alerts and iframe/Home Page/span_ppromptButtonResponse"), "Hello Test Prompt, how are you today?"): Actual text and expected text of test object 'Object Repository/Sample Sites handling alerts and iframe/Home Page/span_ppromptButtonResponse' are matched.
+
+2022-03-13 10:34:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sample Sites handling alerts and iframe/Home Page/span_ppromptButtonResponse' are matched.
+
+2022-03-13 10:34:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-13 10:34:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-13 10:34:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 10:34:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-13 10:34:20 - [TEST_SUITE][PASSED] - Secondary Test Suites: Test Cases/Tests iframe, alerts, and browsers/Handling Alerts]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

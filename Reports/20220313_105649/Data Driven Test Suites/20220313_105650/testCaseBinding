@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Login Data Driven - Iteration 1","testCaseId":"Test Cases/Login Data Driven","bindedValues":{"EmailAddress":"\u0027petejenkins@test.com\u0027","Password":"\u0027Password1234\u0027"}}
+{"testCaseName":"Test Cases/Login Data Driven - Iteration 2","testCaseId":"Test Cases/Login Data Driven","bindedValues":{"EmailAddress":"\u0027petejenkins2@test.com\u0027","Password":"\u0027Password5678\u0027"}}
+{"testCaseName":"Test Cases/Login Data Driven - Iteration 3","testCaseId":"Test Cases/Login Data Driven","bindedValues":{"EmailAddress":"\u0027jamesbond@test.com\u0027","Password":"\u0027Password007\u0027"}}

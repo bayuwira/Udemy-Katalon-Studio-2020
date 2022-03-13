@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional Test Suites,Chrome 99.0.4844.51,,,2022-03-13 12:23:18,2022-03-13 12:24:01,42.817s,ERROR
+,,,,,,,
+Test Cases/Add Single Product to Cart,Chrome 99.0.4844.51,,,2022-03-13 12:23:18,2022-03-13 12:23:40,22.369s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-13 12:23:18,2022-03-13 12:23:21,2.825s,PASSED
+maximizeWindow(),Chrome 99.0.4844.51,,,2022-03-13 12:23:21,2022-03-13 12:23:21,0.156s,PASSED
+"navigateToUrl(""http://automationpractice.com/"")",Chrome 99.0.4844.51,,,2022-03-13 12:23:21,2022-03-13 12:23:29,7.826s,PASSED
+"click(findTestObject(""Home Page/Product Segment/a_Product Blouses""))",Chrome 99.0.4844.51,,,2022-03-13 12:23:29,2022-03-13 12:23:30,1.233s,PASSED
+"selectOptionByLabel(findTestObject(""Product Detail Page/select_Product Size""), ""L"", false)",Chrome 99.0.4844.51,,,2022-03-13 12:23:30,2022-03-13 12:23:32,1.908s,PASSED
+"click(findTestObject(""Product Detail Page/button_Add to cart""))",Chrome 99.0.4844.51,,,2022-03-13 12:23:32,2022-03-13 12:23:33,0.537s,PASSED
+"waitForElementVisible(findTestObject(""Product Detail Page/button_Proceed to checkout""), 3)",Chrome 99.0.4844.51,,,2022-03-13 12:23:33,2022-03-13 12:23:34,1.401s,PASSED
+"click(findTestObject(""Product Detail Page/button_Proceed to checkout""))",Chrome 99.0.4844.51,,,2022-03-13 12:23:34,2022-03-13 12:23:37,2.505s,PASSED
+"verifyElementText(findTestObject(""Order Detail Page/span_Summary Product""), ""1 Product"")",Chrome 99.0.4844.51,,,2022-03-13 12:23:37,2022-03-13 12:23:37,0.518s,PASSED
+delay(3),Chrome 99.0.4844.51,,,2022-03-13 12:23:37,2022-03-13 12:23:40,3.020s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-13 12:23:40,2022-03-13 12:23:40,0.131s,PASSED
+,,,,,,,
+Test Cases/Login Manual Mode,Chrome 99.0.4844.51,,,2022-03-13 12:23:44,2022-03-13 12:23:46,1.683s,ERROR
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-13 12:23:44,2022-03-13 12:23:45,1.530s,PASSED
+navigateToUrl(TestAutomationUrl),Chrome 99.0.4844.51,,,2022-03-13 12:23:46,2022-03-13 12:23:46,0.019s,ERROR
+,,,,,,,
+Test Cases/Test Click Contact Us,Chrome 99.0.4844.51,,,2022-03-13 12:23:46,2022-03-13 12:24:01,14.934s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-13 12:23:46,2022-03-13 12:23:47,1.510s,PASSED
+"navigateToUrl(""http://automationpractice.com/"")",Chrome 99.0.4844.51,,,2022-03-13 12:23:47,2022-03-13 12:23:55,8.062s,PASSED
+"click(findTestObject(""Manual_Object_Locator/button_contanct_us""))",Chrome 99.0.4844.51,,,2022-03-13 12:23:55,2022-03-13 12:23:57,2.077s,PASSED
+delay(3),Chrome 99.0.4844.51,,,2022-03-13 12:23:57,2022-03-13 12:24:00,3.007s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-13 12:24:00,2022-03-13 12:24:01,0.122s,PASSED

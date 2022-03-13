@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Manual Mode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6861b0f7-459c-44d5-9f95-915168e672eb</testCaseGuid>
+   <variable>
+      <defaultValue>'bayuwira1718@gmail.com'</defaultValue>
+      <description></description>
+      <id>a07ed722-0845-4630-b063-3f032ae0517d</id>
+      <masked>false</masked>
+      <name>tcEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'vR2@CnMf!n99Nd!'</defaultValue>
+      <description></description>
+      <id>4e5f360f-cf8a-45c9-afaf-1a28ea90c460</id>
+      <masked>false</masked>
+      <name>tcPassword</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Functional Test Suites" time="61.279" tests="3" failures="0" errors="0">
+   <testsuite name="Functional Test Suites" tests="3" failures="0" errors="0" time="61.279" skipped="0" timestamp="2022-03-13 10:34:11" hostname="bayuwirab - localhost" id="Test Suites/Functional Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_103355/Functional Test Suites/20220313_103356"/>
+         <property name="logFiles" value="/Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_103355/Functional Test Suites/20220313_103356/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bayuwirab - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="f891a9e1c6042899bbc6fb60e8235275"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Add Single Product to Cart" time="23.126" classname="Test Cases/Add Single Product to Cart" status="PASSED">
+         <system-out><![CDATA[2022-03-13 10:34:11 - [TEST_CASE][PASSED] - Test Cases/Add Single Product to Cart: Test Cases/Add Single Product to Cart
+
+2022-03-13 10:34:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 10:34:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-13 10:34:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 10:34:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 10:34:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-13 10:34:14 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-13 10:34:14 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/"): Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:34:22 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:34:22 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Product Segment/a_Product Blouses")): Object: 'Object Repository/Home Page/Product Segment/a_Product Blouses' is clicked on
+
+2022-03-13 10:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Product Segment/a_Product Blouses' is clicked on
+
+2022-03-13 10:34:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Product Detail Page/select_Product Size"), "L", false): All options with label 'L' are selected in object 'Object Repository/Product Detail Page/select_Product Size' 
+
+2022-03-13 10:34:26 - [MESSAGE][PASSED] - All options with label 'L' are selected in object 'Object Repository/Product Detail Page/select_Product Size' 
+
+2022-03-13 10:34:26 - [TEST_STEP][PASSED] - click(findTestObject("Product Detail Page/button_Add to cart")): Object: 'Object Repository/Product Detail Page/button_Add to cart' is clicked on
+
+2022-03-13 10:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Detail Page/button_Add to cart' is clicked on
+
+2022-03-13 10:34:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Product Detail Page/button_Proceed to checkout"), 3): Object 'Object Repository/Product Detail Page/button_Proceed to checkout' is visible
+
+2022-03-13 10:34:28 - [MESSAGE][PASSED] - Object 'Object Repository/Product Detail Page/button_Proceed to checkout' is visible
+
+2022-03-13 10:34:28 - [TEST_STEP][PASSED] - click(findTestObject("Product Detail Page/button_Proceed to checkout")): Object: 'Object Repository/Product Detail Page/button_Proceed to checkout' is clicked on
+
+2022-03-13 10:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Detail Page/button_Proceed to checkout' is clicked on
+
+2022-03-13 10:34:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Order Detail Page/span_Summary Product"), "1 Product"): Actual text and expected text of test object 'Object Repository/Order Detail Page/span_Summary Product' are matched.
+
+2022-03-13 10:34:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Order Detail Page/span_Summary Product' are matched.
+
+2022-03-13 10:34:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-13 10:34:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-13 10:34:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 10:34:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Manual Mode" time="18.939" classname="Test Cases/Login Manual Mode" status="PASSED">
+         <system-out><![CDATA[2022-03-13 10:34:34 - [TEST_CASE][PASSED] - Test Cases/Login Manual Mode: Test Cases/Login Manual Mode
+
+2022-03-13 10:34:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 10:34:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-13 10:34:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 10:34:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 10:34:36 - [TEST_STEP][PASSED] - navigateToUrl(TestAutomationUrl): Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:34:45 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/button_Sign in")): Object: 'Object Repository/Home Page/button_Sign in' is clicked on
+
+2022-03-13 10:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/button_Sign in' is clicked on
+
+2022-03-13 10:34:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Login Section/input_Email address_email"), EmailAddress): Text 'bayuwira1718@gmail.com' is set on object 'Object Repository/Login Page/Login Section/input_Email address_email'
+
+2022-03-13 10:34:50 - [MESSAGE][PASSED] - Text 'bayuwira1718@gmail.com' is set on object 'Object Repository/Login Page/Login Section/input_Email address_email'
+
+2022-03-13 10:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Login Section/input_Password_passwd"), Password): Text 'vR2@CnMf!n99Nd!' is set on object 'Object Repository/Login Page/Login Section/input_Password_passwd'
+
+2022-03-13 10:34:50 - [MESSAGE][PASSED] - Text 'vR2@CnMf!n99Nd!' is set on object 'Object Repository/Login Page/Login Section/input_Password_passwd'
+
+2022-03-13 10:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Section/button_Sign in")): Object: 'Object Repository/Login Page/Login Section/button_Sign in' is clicked on
+
+2022-03-13 10:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Section/button_Sign in' is clicked on
+
+2022-03-13 10:34:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 10:34:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Click Contact Us" time="18.943" classname="Test Cases/Test Click Contact Us" status="PASSED">
+         <system-out><![CDATA[2022-03-13 10:34:53 - [TEST_CASE][PASSED] - Test Cases/Test Click Contact Us: Test Cases/Test Click Contact Us
+
+2022-03-13 10:34:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 10:34:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-13 10:34:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 10:34:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 10:34:55 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/"): Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:35:04 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:35:04 - [TEST_STEP][PASSED] - click(findTestObject("Manual_Object_Locator/button_contanct_us")): Object: 'Object Repository/Manual_Object_Locator/button_contanct_us' is clicked on
+
+2022-03-13 10:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual_Object_Locator/button_contanct_us' is clicked on
+
+2022-03-13 10:35:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-13 10:35:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-13 10:35:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 10:35:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-13 10:34:11 - [TEST_SUITE][PASSED] - Functional Test Suites: Test Cases/Test Click Contact Us]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

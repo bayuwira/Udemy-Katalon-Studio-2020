@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional Test Suites,Chrome 99.0.4844.51,,,2022-03-13 09:44:01,2022-03-13 09:44:54,52.969s,PASSED
+,,,,,,,
+Test Cases/Add Single Product to Cart,Chrome 99.0.4844.51,,,2022-03-13 09:44:02,2022-03-13 09:44:23,21.670s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-13 09:44:02,2022-03-13 09:44:04,2.522s,PASSED
+"navigateToUrl(""http://automationpractice.com/"")",Chrome 99.0.4844.51,,,2022-03-13 09:44:04,2022-03-13 09:44:12,8.013s,PASSED
+"click(findTestObject(""Home Page/Product Segment/a_Product Blouses""))",Chrome 99.0.4844.51,,,2022-03-13 09:44:12,2022-03-13 09:44:15,2.354s,PASSED
+"selectOptionByLabel(findTestObject(""Product Detail Page/select_Product Size""), ""L"", false)",Chrome 99.0.4844.51,,,2022-03-13 09:44:15,2022-03-13 09:44:15,0.737s,PASSED
+"click(findTestObject(""Product Detail Page/button_Add to cart""))",Chrome 99.0.4844.51,,,2022-03-13 09:44:15,2022-03-13 09:44:16,0.773s,PASSED
+"click(findTestObject(""Product Detail Page/button_Proceed to checkout""))",Chrome 99.0.4844.51,,,2022-03-13 09:44:16,2022-03-13 09:44:20,3.290s,PASSED
+"verifyElementText(findTestObject(""Order Detail Page/span_Summary Product""), ""1 Product"")",Chrome 99.0.4844.51,,,2022-03-13 09:44:20,2022-03-13 09:44:20,0.524s,PASSED
+delay(3),Chrome 99.0.4844.51,,,2022-03-13 09:44:20,2022-03-13 09:44:23,3.019s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-13 09:44:23,2022-03-13 09:44:23,0.131s,PASSED
+,,,,,,,
+Test Cases/Login Manual Mode,Chrome 99.0.4844.51,,,2022-03-13 09:44:23,2022-03-13 09:44:40,16.571s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-13 09:44:23,2022-03-13 09:44:25,1.552s,PASSED
+navigateToUrl(TestAutomationUrl),Chrome 99.0.4844.51,,,2022-03-13 09:44:25,2022-03-13 09:44:33,8.047s,PASSED
+"click(findTestObject(""Home Page/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-13 09:44:33,2022-03-13 09:44:36,2.889s,PASSED
+"setText(findTestObject(""Login Page/Login Section/input_Email address_email""), EmailAddress)",Chrome 99.0.4844.51,,,2022-03-13 09:44:36,2022-03-13 09:44:37,0.956s,PASSED
+"setText(findTestObject(""Login Page/Login Section/input_Password_passwd""), Password)",Chrome 99.0.4844.51,,,2022-03-13 09:44:37,2022-03-13 09:44:38,0.715s,PASSED
+"click(findTestObject(""Login Page/Login Section/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-13 09:44:38,2022-03-13 09:44:40,2.023s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-13 09:44:40,2022-03-13 09:44:40,0.114s,PASSED
+,,,,,,,
+Test Cases/Test Click Contact Us,Chrome 99.0.4844.51,,,2022-03-13 09:44:40,2022-03-13 09:44:54,14.442s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-13 09:44:40,2022-03-13 09:44:41,1.287s,PASSED
+"navigateToUrl(""http://automationpractice.com/"")",Chrome 99.0.4844.51,,,2022-03-13 09:44:41,2022-03-13 09:44:49,7.688s,PASSED
+"click(findTestObject(""Manual_Object_Locator/button_contanct_us""))",Chrome 99.0.4844.51,,,2022-03-13 09:44:49,2022-03-13 09:44:51,2.174s,PASSED
+delay(3),Chrome 99.0.4844.51,,,2022-03-13 09:44:51,2022-03-13 09:44:54,3.025s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-13 09:44:54,2022-03-13 09:44:54,0.114s,PASSED

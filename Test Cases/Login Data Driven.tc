@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Data Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc3cf69d-2b29-45d9-86cd-d73d5022a4ae</testCaseGuid>
+   <variable>
+      <defaultValue>'bayuwira1718@gmail.com'</defaultValue>
+      <description></description>
+      <id>14d90216-6ae6-482a-a1e5-61c891be6336</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'vR2@CnMf!n99Nd!'</defaultValue>
+      <description></description>
+      <id>72ad134f-207b-4e80-a2b5-5c41c2c5d1b9</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

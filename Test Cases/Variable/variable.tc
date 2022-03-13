@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>variable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b33dfe90-1f43-4ea8-905f-58fcf42ff60b</testCaseGuid>
+   <variable>
+      <defaultValue>'Ini termasuk testcase variabel'</defaultValue>
+      <description></description>
+      <id>7f544cf5-ed08-47a2-9e26-cbf4d30c2e0d</id>
+      <masked>false</masked>
+      <name>test_case_alert_text</name>
+   </variable>
+</TestCaseEntity>

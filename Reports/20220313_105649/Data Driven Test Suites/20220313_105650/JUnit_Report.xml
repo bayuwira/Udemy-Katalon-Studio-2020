@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Driven Test Suites" time="54.919" tests="3" failures="0" errors="0">
+   <testsuite name="Data Driven Test Suites" tests="3" failures="0" errors="0" time="54.919" skipped="0" timestamp="2022-03-13 10:57:02" hostname="bayuwirab - localhost" id="Test Suites/Data Driven Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_105649/Data Driven Test Suites/20220313_105650"/>
+         <property name="logFiles" value="/Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_105649/Data Driven Test Suites/20220313_105650/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bayuwirab - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="9e1d59982a7cce92266681fd2519ceac"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login Data Driven" time="20.181" classname="Test Cases/Login Data Driven" status="PASSED">
+         <system-out><![CDATA[2022-03-13 10:57:02 - [TEST_CASE][PASSED] - Test Cases/Login Data Driven: Test Cases/Login Data Driven
+
+2022-03-13 10:57:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 10:57:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-13 10:57:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 10:57:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 10:57:05 - [TEST_STEP][PASSED] - navigateToUrl(TestAutomationUrl): Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:57:14 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/button_Sign in")): Object: 'Object Repository/Home Page/button_Sign in' is clicked on
+
+2022-03-13 10:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/button_Sign in' is clicked on
+
+2022-03-13 10:57:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Login Section/input_Email address_email"), EmailAddress): Text 'petejenkins@test.com' is set on object 'Object Repository/Login Page/Login Section/input_Email address_email'
+
+2022-03-13 10:57:19 - [MESSAGE][PASSED] - Text 'petejenkins@test.com' is set on object 'Object Repository/Login Page/Login Section/input_Email address_email'
+
+2022-03-13 10:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Login Section/input_Password_passwd"), Password): Text 'Password1234' is set on object 'Object Repository/Login Page/Login Section/input_Password_passwd'
+
+2022-03-13 10:57:19 - [MESSAGE][PASSED] - Text 'Password1234' is set on object 'Object Repository/Login Page/Login Section/input_Password_passwd'
+
+2022-03-13 10:57:19 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Section/button_Sign in")): Object: 'Object Repository/Login Page/Login Section/button_Sign in' is clicked on
+
+2022-03-13 10:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Section/button_Sign in' is clicked on
+
+2022-03-13 10:57:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 10:57:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Data Driven" time="15.637" classname="Test Cases/Login Data Driven" status="PASSED">
+         <system-out><![CDATA[2022-03-13 10:57:22 - [TEST_CASE][PASSED] - Test Cases/Login Data Driven: Test Cases/Login Data Driven
+
+2022-03-13 10:57:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 10:57:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-13 10:57:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 10:57:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 10:57:24 - [TEST_STEP][PASSED] - navigateToUrl(TestAutomationUrl): Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:57:32 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:57:32 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/button_Sign in")): Object: 'Object Repository/Home Page/button_Sign in' is clicked on
+
+2022-03-13 10:57:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/button_Sign in' is clicked on
+
+2022-03-13 10:57:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Login Section/input_Email address_email"), EmailAddress): Text 'petejenkins2@test.com' is set on object 'Object Repository/Login Page/Login Section/input_Email address_email'
+
+2022-03-13 10:57:36 - [MESSAGE][PASSED] - Text 'petejenkins2@test.com' is set on object 'Object Repository/Login Page/Login Section/input_Email address_email'
+
+2022-03-13 10:57:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Login Section/input_Password_passwd"), Password): Text 'Password5678' is set on object 'Object Repository/Login Page/Login Section/input_Password_passwd'
+
+2022-03-13 10:57:36 - [MESSAGE][PASSED] - Text 'Password5678' is set on object 'Object Repository/Login Page/Login Section/input_Password_passwd'
+
+2022-03-13 10:57:36 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Section/button_Sign in")): Object: 'Object Repository/Login Page/Login Section/button_Sign in' is clicked on
+
+2022-03-13 10:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Section/button_Sign in' is clicked on
+
+2022-03-13 10:57:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 10:57:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Data Driven" time="18.759" classname="Test Cases/Login Data Driven" status="PASSED">
+         <system-out><![CDATA[2022-03-13 10:57:38 - [TEST_CASE][PASSED] - Test Cases/Login Data Driven: Test Cases/Login Data Driven
+
+2022-03-13 10:57:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 10:57:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-13 10:57:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 10:57:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 10:57:39 - [TEST_STEP][PASSED] - navigateToUrl(TestAutomationUrl): Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:57:50 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 10:57:50 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/button_Sign in")): Object: 'Object Repository/Home Page/button_Sign in' is clicked on
+
+2022-03-13 10:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/button_Sign in' is clicked on
+
+2022-03-13 10:57:53 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Login Section/input_Email address_email"), EmailAddress): Text 'jamesbond@test.com' is set on object 'Object Repository/Login Page/Login Section/input_Email address_email'
+
+2022-03-13 10:57:54 - [MESSAGE][PASSED] - Text 'jamesbond@test.com' is set on object 'Object Repository/Login Page/Login Section/input_Email address_email'
+
+2022-03-13 10:57:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Login Section/input_Password_passwd"), Password): Text 'Password007' is set on object 'Object Repository/Login Page/Login Section/input_Password_passwd'
+
+2022-03-13 10:57:55 - [MESSAGE][PASSED] - Text 'Password007' is set on object 'Object Repository/Login Page/Login Section/input_Password_passwd'
+
+2022-03-13 10:57:55 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Section/button_Sign in")): Object: 'Object Repository/Login Page/Login Section/button_Sign in' is clicked on
+
+2022-03-13 10:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Section/button_Sign in' is clicked on
+
+2022-03-13 10:57:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 10:57:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-13 10:57:02 - [TEST_SUITE][PASSED] - Data Driven Test Suites: Test Cases/Login Data Driven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

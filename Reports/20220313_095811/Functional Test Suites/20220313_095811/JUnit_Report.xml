@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Functional Test Suites" time="100.73" tests="3" failures="1" errors="0">
+   <testsuite name="Functional Test Suites" tests="3" failures="1" errors="0" time="100.73" skipped="0" timestamp="2022-03-13 09:58:22" hostname="bayuwirab - localhost" id="Test Suites/Functional Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_095811/Functional Test Suites/20220313_095811"/>
+         <property name="logFiles" value="/Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_095811/Functional Test Suites/20220313_095811/execution0.log"/>
+         <property name="attachments" value="/Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_095811/Functional Test Suites/20220313_095811/1647136749441.png, /Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_095811/Functional Test Suites/20220313_095811/1647136762705.png, /Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_095811/Functional Test Suites/20220313_095811/1647136775904.png"/>
+         <property name="hostName" value="bayuwirab - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Safari 15"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="DB1004C0-6D84-407E-B70D-53F4F94C2486"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Add Single Product to Cart" time="13.133" classname="Test Cases/Add Single Product to Cart" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add Single Product to Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product Detail Page/button_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Single Product to Cart.run(Add Single Product to Cart:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647136691425.run(TempTestSuite1647136691425.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Bayus-MacBook-Pro.local', ip: 'fe80:0:0:0:8b6:edf9:7685:c193%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CSafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.3, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21D62, safari:platformVersion: 12.2.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 676C38E7-75D8-4841-B67C-CE7FB9C70337
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CSafariDriver.execute(CSafariDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+"/>
+         <system-out><![CDATA[2022-03-13 09:59:22 - [TEST_CASE][FAILED] - Test Cases/Add Single Product to Cart: Test Cases/Add Single Product to Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product Detail Page/button_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Single Product to Cart.run(Add Single Product to Cart:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647136691425.run(TempTestSuite1647136691425.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Bayus-MacBook-Pro.local', ip: 'fe80:0:0:0:8b6:edf9:7685:c193%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CSafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.3, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21D62, safari:platformVersion: 12.2.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 676C38E7-75D8-4841-B67C-CE7FB9C70337
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CSafariDriver.execute(CSafariDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+
+
+2022-03-13 09:59:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 09:59:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-13 09:59:22 - [MESSAGE][INFO] - Starting 'Safari' driver
+
+2022-03-13 09:59:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 09:59:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 09:59:23 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/"): Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 09:59:32 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 09:59:32 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Product Segment/a_Product Blouses")): Object: 'Object Repository/Home Page/Product Segment/a_Product Blouses' is clicked on
+
+2022-03-13 09:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Product Segment/a_Product Blouses' is clicked on
+
+2022-03-13 09:59:35 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Product Detail Page/select_Product Size"), "L", false): All options with label 'L' are selected in object 'Object Repository/Product Detail Page/select_Product Size' 
+
+2022-03-13 09:59:35 - [MESSAGE][PASSED] - All options with label 'L' are selected in object 'Object Repository/Product Detail Page/select_Product Size' 
+
+2022-03-13 09:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Product Detail Page/button_Add to cart")): Object: 'Object Repository/Product Detail Page/button_Add to cart' is clicked on
+
+2022-03-13 09:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Detail Page/button_Add to cart' is clicked on
+
+2022-03-13 09:59:35 - [TEST_STEP][FAILED] - click(findTestObject("Product Detail Page/button_Proceed to checkout")): Unable to click on object 'Object Repository/Product Detail Page/button_Proceed to checkout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product Detail Page/button_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Single Product to Cart.run(Add Single Product to Cart:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647136691425.run(TempTestSuite1647136691425.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Bayus-MacBook-Pro.local', ip: 'fe80:0:0:0:8b6:edf9:7685:c193%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CSafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.3, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21D62, safari:platformVersion: 12.2.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 676C38E7-75D8-4841-B67C-CE7FB9C70337
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CSafariDriver.execute(CSafariDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1647017351323.run(Script1647017351323.groovy:30)
+	... 15 more
+)
+
+2022-03-13 09:59:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Product Detail Page/button_Proceed to checkout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product Detail Page/button_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Single Product to Cart.run(Add Single Product to Cart:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647136691425.run(TempTestSuite1647136691425.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Bayus-MacBook-Pro.local', ip: 'fe80:0:0:0:8b6:edf9:7685:c193%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CSafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.3, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21D62, safari:platformVersion: 12.2.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 676C38E7-75D8-4841-B67C-CE7FB9C70337
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CSafariDriver.execute(CSafariDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1647017351323.run(Script1647017351323.groovy:30)
+	... 15 more
+)
+[[ATTACHMENT|/Users/bayuwirab/Katalon Studio/Udemy-Complete-Katalon/Reports/20220313_095811/Functional Test Suites/20220313_095811/1647136775904.png]]]]></system-out>
+         <system-err><![CDATA[2022-03-13 09:59:22 - [TEST_CASE][FAILED] - Test Cases/Add Single Product to Cart: Test Cases/Add Single Product to Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product Detail Page/button_Proceed to checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Single Product to Cart.run(Add Single Product to Cart:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647136691425.run(TempTestSuite1647136691425.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Bayus-MacBook-Pro.local', ip: 'fe80:0:0:0:8b6:edf9:7685:c193%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CSafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.3, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21D62, safari:platformVersion: 12.2.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 676C38E7-75D8-4841-B67C-CE7FB9C70337
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CSafariDriver.execute(CSafariDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Manual Mode" time="12.333" classname="Test Cases/Login Manual Mode" status="PASSED">
+         <system-out><![CDATA[2022-03-13 09:59:35 - [TEST_CASE][PASSED] - Test Cases/Login Manual Mode: Test Cases/Login Manual Mode
+
+2022-03-13 09:59:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 09:59:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-13 09:59:36 - [MESSAGE][INFO] - Starting 'Safari' driver
+
+2022-03-13 09:59:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 09:59:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 09:59:36 - [TEST_STEP][PASSED] - navigateToUrl(TestAutomationUrl): Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 09:59:44 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 09:59:44 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/button_Sign in")): Object: 'Object Repository/Home Page/button_Sign in' is clicked on
+
+2022-03-13 09:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/button_Sign in' is clicked on
+
+2022-03-13 09:59:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Login Section/input_Email address_email"), EmailAddress): Text 'bayuwira1718@gmail.com' is set on object 'Object Repository/Login Page/Login Section/input_Email address_email'
+
+2022-03-13 09:59:47 - [MESSAGE][PASSED] - Text 'bayuwira1718@gmail.com' is set on object 'Object Repository/Login Page/Login Section/input_Email address_email'
+
+2022-03-13 09:59:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Login Section/input_Password_passwd"), Password): Text 'vR2@CnMf!n99Nd!' is set on object 'Object Repository/Login Page/Login Section/input_Password_passwd'
+
+2022-03-13 09:59:47 - [MESSAGE][PASSED] - Text 'vR2@CnMf!n99Nd!' is set on object 'Object Repository/Login Page/Login Section/input_Password_passwd'
+
+2022-03-13 09:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Section/button_Sign in")): Object: 'Object Repository/Login Page/Login Section/button_Sign in' is clicked on
+
+2022-03-13 09:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Section/button_Sign in' is clicked on
+
+2022-03-13 09:59:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 09:59:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Click Contact Us" time="15.383" classname="Test Cases/Test Click Contact Us" status="PASSED">
+         <system-out><![CDATA[2022-03-13 09:59:48 - [TEST_CASE][PASSED] - Test Cases/Test Click Contact Us: Test Cases/Test Click Contact Us
+
+2022-03-13 09:59:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 09:59:48 - [MESSAGE][INFO] - Starting 'Safari' driver
+
+2022-03-13 09:59:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 09:59:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 09:59:49 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/"): Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 09:59:58 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/' successfully
+
+2022-03-13 09:59:58 - [TEST_STEP][PASSED] - click(findTestObject("Manual_Object_Locator/button_contanct_us")): Object: 'Object Repository/Manual_Object_Locator/button_contanct_us' is clicked on
+
+2022-03-13 10:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual_Object_Locator/button_contanct_us' is clicked on
+
+2022-03-13 10:00:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-13 10:00:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-13 10:00:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 10:00:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-13 09:58:22 - [TEST_SUITE][FAILED] - Functional Test Suites: Test Cases/Add Single Product to Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'L' of object 'Object Repository/Product Detail Page/select_Product Size' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$2.call(Unknown Source)
+	at Add Single Product to Cart.run(Add Single Product to Cart:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647136691425.run(TempTestSuite1647136691425.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product Detail Page/select_Product Size' located by '//select[@id='group_1']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-03-13 09:58:22 - [TEST_SUITE][FAILED] - Functional Test Suites: Test Cases/Add Single Product to Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'L' of object 'Object Repository/Product Detail Page/select_Product Size' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$2.call(Unknown Source)
+	at Add Single Product to Cart.run(Add Single Product to Cart:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647136691425.run(TempTestSuite1647136691425.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product Detail Page/select_Product Size' located by '//select[@id='group_1']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

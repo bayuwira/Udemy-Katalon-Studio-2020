@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Driven Test Suites,Chrome 99.0.4844.51,,,2022-03-13 10:57:02,2022-03-13 10:57:57,54.919s,PASSED
+,,,,,,,
+Test Cases/Login Data Driven,Chrome 99.0.4844.51,,,2022-03-13 10:57:02,2022-03-13 10:57:22,20.181s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-13 10:57:02,2022-03-13 10:57:05,2.619s,PASSED
+navigateToUrl(TestAutomationUrl),Chrome 99.0.4844.51,,,2022-03-13 10:57:05,2022-03-13 10:57:14,9.469s,PASSED
+"click(findTestObject(""Home Page/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-13 10:57:14,2022-03-13 10:57:18,3.311s,PASSED
+"setText(findTestObject(""Login Page/Login Section/input_Email address_email""), EmailAddress)",Chrome 99.0.4844.51,,,2022-03-13 10:57:18,2022-03-13 10:57:19,1.008s,PASSED
+"setText(findTestObject(""Login Page/Login Section/input_Password_passwd""), Password)",Chrome 99.0.4844.51,,,2022-03-13 10:57:19,2022-03-13 10:57:19,0.601s,PASSED
+"click(findTestObject(""Login Page/Login Section/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-13 10:57:19,2022-03-13 10:57:22,2.755s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-13 10:57:22,2022-03-13 10:57:22,0.113s,PASSED
+,,,,,,,
+Test Cases/Login Data Driven,Chrome 99.0.4844.51,,,2022-03-13 10:57:22,2022-03-13 10:57:38,15.637s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-13 10:57:22,2022-03-13 10:57:24,1.471s,PASSED
+navigateToUrl(TestAutomationUrl),Chrome 99.0.4844.51,,,2022-03-13 10:57:24,2022-03-13 10:57:32,7.881s,PASSED
+"click(findTestObject(""Home Page/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-13 10:57:32,2022-03-13 10:57:34,2.763s,PASSED
+"setText(findTestObject(""Login Page/Login Section/input_Email address_email""), EmailAddress)",Chrome 99.0.4844.51,,,2022-03-13 10:57:34,2022-03-13 10:57:36,1.190s,PASSED
+"setText(findTestObject(""Login Page/Login Section/input_Password_passwd""), Password)",Chrome 99.0.4844.51,,,2022-03-13 10:57:36,2022-03-13 10:57:36,0.788s,PASSED
+"click(findTestObject(""Login Page/Login Section/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-13 10:57:36,2022-03-13 10:57:38,1.386s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-13 10:57:38,2022-03-13 10:57:38,0.109s,PASSED
+,,,,,,,
+Test Cases/Login Data Driven,Chrome 99.0.4844.51,,,2022-03-13 10:57:38,2022-03-13 10:57:57,18.759s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-13 10:57:38,2022-03-13 10:57:39,1.452s,PASSED
+navigateToUrl(TestAutomationUrl),Chrome 99.0.4844.51,,,2022-03-13 10:57:39,2022-03-13 10:57:50,10.573s,PASSED
+"click(findTestObject(""Home Page/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-13 10:57:50,2022-03-13 10:57:53,3.185s,PASSED
+"setText(findTestObject(""Login Page/Login Section/input_Email address_email""), EmailAddress)",Chrome 99.0.4844.51,,,2022-03-13 10:57:53,2022-03-13 10:57:54,1.104s,PASSED
+"setText(findTestObject(""Login Page/Login Section/input_Password_passwd""), Password)",Chrome 99.0.4844.51,,,2022-03-13 10:57:54,2022-03-13 10:57:55,0.725s,PASSED
+"click(findTestObject(""Login Page/Login Section/button_Sign in""))",Chrome 99.0.4844.51,,,2022-03-13 10:57:55,2022-03-13 10:57:57,1.566s,PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-13 10:57:57,2022-03-13 10:57:57,0.115s,PASSED
