@@ -17,19 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.TestAutomationUrl)
-
-WebUI.click(findTestObject('Home Page/button_Sign in'))
-
-WebUI.setText(findTestObject('Login Page/Login Section/input_Email address_email'), tcEmail)
-
-WebUI.setText(findTestObject('Login Page/Login Section/input_Password_passwd'), tcPassword)
-
-WebUI.click(findTestObject('Login Page/Login Section/button_Sign in'))
-
-WebUI.verifyElementVisible(findTestObject('My Account Page/h1_My account'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
-
+CucumberKW.runFeatureFolder('Include/features')
